@@ -1,6 +1,9 @@
 /* Import fonts from font.css */
 @import url(./fonts.css);
 
+/* Import CSS Variables */
+@import url(./partials/_variables.css);
+
 /* Start Navigation */
 .header_area .main-menu .navbar .navbar-brand {
   padding: 0 2rem 0 5rem !important;
@@ -11,10 +14,24 @@
 }
 
 .header_area .main-menu .nav-item .nav-link {
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue';
+  font-family: var(--roboto);
   text-transform: uppercase;
   font-weight: 500;
   padding: 1.7rem;
-  color: black;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 /* End Navigation */
