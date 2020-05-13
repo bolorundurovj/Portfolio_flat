@@ -56,4 +56,21 @@
   transform: translateY(-10px);
 }
 
+.site-main .site-banner .site-title h1{
+  font-size: 3rem;
+}
+
+.site-main .site-banner .site-title h4{
+  font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+  padding: 7rem 0;
+  width: 90rem;
+}
+
+.title-text {
+  font: normal bold 50px/72px var(--roboto);
+}
+
 /* End Banner Area */
