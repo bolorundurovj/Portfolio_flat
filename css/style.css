@@ -4,6 +4,9 @@
 /* Import CSS Variables */
 @import url(./partials/_variables.css);
 
+/* Import Global CSS */
+@import url(./partials/_global.css);
+
 /* Start Navigation */
 .header_area .main-menu .navbar .navbar-brand {
   padding: 0 2rem 0 5rem !important;
