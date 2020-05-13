@@ -26,6 +26,12 @@ transition: background 0.6s ease;
 box-shadow: var(--box-shadow);
 }
 
+.button.primary-button:hover{
+background: whitesmoke;
+background-clip: padding-box;
+color: black;
+}
+
 .secondary-button{
 
 }
