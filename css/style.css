@@ -118,5 +118,6 @@
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
   box-shadow: var(--box-shadow);
+  transform: scale(1.1);
 }
 /* End Brand Area */
