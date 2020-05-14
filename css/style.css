@@ -116,6 +116,10 @@
   width: 50%;
 }
 
+.site-main .brand-area .first-row .col-lg-4 > .single-brand > img:hover{
+  filter: brightness(0.15);
+}
+
 .site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
   box-shadow: var(--box-shadow);
   transform: scale(1.1);
