@@ -124,4 +124,21 @@
   box-shadow: var(--box-shadow);
   transform: scale(1.1);
 }
+
+.site-main .brand-area .experience-area{
+  padding-left: 1rem;
+}
+
+.site-main .brand-area .experience-area span{
+  display: block;
+}
+
+.site-main .brand-area .experience-area .years-area{
+  background: url(../img/client-info-bg.png) no-repeat 25px 25px;
+  padding: 2rem 0;
+  width: 40rem;
+  height: 18rem;
+  padding-left: 8rem;
+  position: relative;
+}
 /* End Brand Area */
